@@ -1,0 +1,458 @@
+[
+  {
+    "model": "productos.categoria",
+    "pk": 1,
+    "fields": {
+      "nombre": "Herramientas manuales",
+      "descripcion": "Herramientas de uso manual para trabajos de construcción y reparación."
+    }
+  },
+  {
+    "model": "productos.categoria",
+    "pk": 2,
+    "fields": {
+      "nombre": "Herramientas eléctricas",
+      "descripcion": "Herramientas eléctricas y accesorios para talleres y obras."
+    }
+  },
+  {
+    "model": "productos.categoria",
+    "pk": 3,
+    "fields": {
+      "nombre": "Fijaciones y anclajes",
+      "descripcion": "Clavos, tornillos, pernos y elementos de fijación."
+    }
+  },
+  {
+    "model": "productos.categoria",
+    "pk": 4,
+    "fields": {
+      "nombre": "Pinturas y adhesivos",
+      "descripcion": "Pinturas, selladores y adhesivos para construcción."
+    }
+  },
+  {
+    "model": "productos.categoria",
+    "pk": 5,
+    "fields": {
+      "nombre": "Gasfitería y electricidad",
+      "descripcion": "Materiales y accesorios para instalaciones de agua y electricidad."
+    }
+  },
+  {
+    "model": "productos.categoria",
+    "pk": 6,
+    "fields": {
+      "nombre": "Seguridad y protección",
+      "descripcion": "Elementos de protección personal para trabajos de construcción."
+    }
+  },
+  {
+    "model": "productos.categoria",
+    "pk": 7,
+    "fields": {
+      "nombre": "Jardín y exterior",
+      "descripcion": "Herramientas y suministros para jardín y mantención exterior."
+    }
+  },
+  {
+    "model": "productos.producto",
+    "pk": 1,
+    "fields": {
+      "nombre": "Martillo carpintero 16 oz mango fibra",
+      "categoria": 1,
+      "precio": 8990,
+      "stock": 18
+    }
+  },
+  {
+    "model": "productos.producto",
+    "pk": 2,
+    "fields": {
+      "nombre": "Alicate universal 8 pulgadas",
+      "categoria": 1,
+      "precio": 7490,
+      "stock": 24
+    }
+  },
+  {
+    "model": "productos.producto",
+    "pk": 3,
+    "fields": {
+      "nombre": "Set de destornilladores 6 piezas",
+      "categoria": 1,
+      "precio": 5990,
+      "stock": 31
+    }
+  },
+  {
+    "model": "productos.producto",
+    "pk": 4,
+    "fields": {
+      "nombre": "Llave ajustable cromada 10 pulgadas",
+      "categoria": 1,
+      "precio": 10990,
+      "stock": 12
+    }
+  },
+  {
+    "model": "productos.producto",
+    "pk": 5,
+    "fields": {
+      "nombre": "Huincha metálica 5 m",
+      "categoria": 1,
+      "precio": 3490,
+      "stock": 42
+    }
+  },
+  {
+    "model": "productos.producto",
+    "pk": 6,
+    "fields": {
+      "nombre": "Nivel de aluminio 60 cm",
+      "categoria": 1,
+      "precio": 8990,
+      "stock": 14
+    }
+  },
+  {
+    "model": "productos.producto",
+    "pk": 7,
+    "fields": {
+      "nombre": "Serrucho carpintero 20 pulgadas",
+      "categoria": 1,
+      "precio": 7990,
+      "stock": 16
+    }
+  },
+  {
+    "model": "productos.producto",
+    "pk": 8,
+    "fields": {
+      "nombre": "Combo llave punta corona 8 piezas",
+      "categoria": 1,
+      "precio": 18990,
+      "stock": 9
+    }
+  },
+  {
+    "model": "productos.producto",
+    "pk": 9,
+    "fields": {
+      "nombre": "Taladro percutor 650 W",
+      "categoria": 2,
+      "precio": 49990,
+      "stock": 7
+    }
+  },
+  {
+    "model": "productos.producto",
+    "pk": 10,
+    "fields": {
+      "nombre": "Esmeril angular 4 1/2 pulgadas 750 W",
+      "categoria": 2,
+      "precio": 39990,
+      "stock": 11
+    }
+  },
+  {
+    "model": "productos.producto",
+    "pk": 11,
+    "fields": {
+      "nombre": "Sierra circular 7 1/4 pulgadas 1400 W",
+      "categoria": 2,
+      "precio": 89990,
+      "stock": 4
+    }
+  },
+  {
+    "model": "productos.producto",
+    "pk": 12,
+    "fields": {
+      "nombre": "Atornillador inalámbrico 12 V con batería",
+      "categoria": 2,
+      "precio": 59990,
+      "stock": 6
+    }
+  },
+  {
+    "model": "productos.producto",
+    "pk": 13,
+    "fields": {
+      "nombre": "Rotomartillo SDS Plus 800 W",
+      "categoria": 2,
+      "precio": 119990,
+      "stock": 3
+    }
+  },
+  {
+    "model": "productos.producto",
+    "pk": 14,
+    "fields": {
+      "nombre": "Lijadora orbital 240 W",
+      "categoria": 2,
+      "precio": 34990,
+      "stock": 8
+    }
+  },
+  {
+    "model": "productos.producto",
+    "pk": 15,
+    "fields": {
+      "nombre": "Caja tornillos volcanita 6 x 1 1/4 500 unidades",
+      "categoria": 3,
+      "precio": 7990,
+      "stock": 22
+    }
+  },
+  {
+    "model": "productos.producto",
+    "pk": 16,
+    "fields": {
+      "nombre": "Clavo corriente 2 pulgadas kilo",
+      "categoria": 3,
+      "precio": 2490,
+      "stock": 35
+    }
+  },
+  {
+    "model": "productos.producto",
+    "pk": 17,
+    "fields": {
+      "nombre": "Perno coche galvanizado 3/8 x 3 pulgadas",
+      "categoria": 3,
+      "precio": 1190,
+      "stock": 50
+    }
+  },
+  {
+    "model": "productos.producto",
+    "pk": 18,
+    "fields": {
+      "nombre": "Tarugo nylon 8 mm con tornillo pack 50",
+      "categoria": 3,
+      "precio": 3990,
+      "stock": 27
+    }
+  },
+  {
+    "model": "productos.producto",
+    "pk": 19,
+    "fields": {
+      "nombre": "Tornillo autoperforante zincado pack 100",
+      "categoria": 3,
+      "precio": 4990,
+      "stock": 19
+    }
+  },
+  {
+    "model": "productos.producto",
+    "pk": 20,
+    "fields": {
+      "nombre": "Candado de acero 50 mm",
+      "categoria": 3,
+      "precio": 6990,
+      "stock": 13
+    }
+  },
+  {
+    "model": "productos.producto",
+    "pk": 21,
+    "fields": {
+      "nombre": "Pintura látex interior blanca 1 galón",
+      "categoria": 4,
+      "precio": 18990,
+      "stock": 10
+    }
+  },
+  {
+    "model": "productos.producto",
+    "pk": 22,
+    "fields": {
+      "nombre": "Esmalte al agua blanco 1 galón",
+      "categoria": 4,
+      "precio": 24990,
+      "stock": 8
+    }
+  },
+  {
+    "model": "productos.producto",
+    "pk": 23,
+    "fields": {
+      "nombre": "Anticorrosivo gris 1 galón",
+      "categoria": 4,
+      "precio": 21990,
+      "stock": 6
+    }
+  },
+  {
+    "model": "productos.producto",
+    "pk": 24,
+    "fields": {
+      "nombre": "Silicona neutra transparente 280 ml",
+      "categoria": 4,
+      "precio": 4990,
+      "stock": 23
+    }
+  },
+  {
+    "model": "productos.producto",
+    "pk": 25,
+    "fields": {
+      "nombre": "Adhesivo cerámico saco 25 kg",
+      "categoria": 4,
+      "precio": 6990,
+      "stock": 17
+    }
+  },
+  {
+    "model": "productos.producto",
+    "pk": 26,
+    "fields": {
+      "nombre": "Cinta teflón para gasfitería 12 mm",
+      "categoria": 5,
+      "precio": 1000,
+      "stock": 50
+    }
+  },
+  {
+    "model": "productos.producto",
+    "pk": 27,
+    "fields": {
+      "nombre": "Llave de paso bronce 1/2 pulgada",
+      "categoria": 5,
+      "precio": 5990,
+      "stock": 14
+    }
+  },
+  {
+    "model": "productos.producto",
+    "pk": 28,
+    "fields": {
+      "nombre": "Flexible para lavaplatos 1/2 x 1/2 40 cm",
+      "categoria": 5,
+      "precio": 3990,
+      "stock": 18
+    }
+  },
+  {
+    "model": "productos.producto",
+    "pk": 29,
+    "fields": {
+      "nombre": "Cable eléctrico EVA 2,5 mm² rollo 10 m",
+      "categoria": 5,
+      "precio": 12990,
+      "stock": 7
+    }
+  },
+  {
+    "model": "productos.producto",
+    "pk": 30,
+    "fields": {
+      "nombre": "Enchufe doble embutido blanco",
+      "categoria": 5,
+      "precio": 2990,
+      "stock": 26
+    }
+  },
+  {
+    "model": "productos.producto",
+    "pk": 31,
+    "fields": {
+      "nombre": "Automático termomagnético 16 A",
+      "categoria": 5,
+      "precio": 8990,
+      "stock": 11
+    }
+  },
+  {
+    "model": "productos.producto",
+    "pk": 32,
+    "fields": {
+      "nombre": "Guantes cabritilla reforzados talla L",
+      "categoria": 6,
+      "precio": 4990,
+      "stock": 20
+    }
+  },
+  {
+    "model": "productos.producto",
+    "pk": 33,
+    "fields": {
+      "nombre": "Lentes de seguridad transparentes antiempañantes",
+      "categoria": 6,
+      "precio": 2490,
+      "stock": 32
+    }
+  },
+  {
+    "model": "productos.producto",
+    "pk": 34,
+    "fields": {
+      "nombre": "Casco de seguridad blanco con ajuste",
+      "categoria": 6,
+      "precio": 8990,
+      "stock": 9
+    }
+  },
+  {
+    "model": "productos.producto",
+    "pk": 35,
+    "fields": {
+      "nombre": "Protector auditivo tipo copa 25 dB",
+      "categoria": 6,
+      "precio": 6990,
+      "stock": 5
+    }
+  },
+  {
+    "model": "productos.producto",
+    "pk": 36,
+    "fields": {
+      "nombre": "Botín de seguridad cuero talla 42",
+      "categoria": 6,
+      "precio": 45990,
+      "stock": 4
+    }
+  },
+  {
+    "model": "productos.producto",
+    "pk": 37,
+    "fields": {
+      "nombre": "Pala punta huevo con mango",
+      "categoria": 7,
+      "precio": 12990,
+      "stock": 8
+    }
+  },
+  {
+    "model": "productos.producto",
+    "pk": 38,
+    "fields": {
+      "nombre": "Manguera jardín reforzada 1/2 pulgada 20 m",
+      "categoria": 7,
+      "precio": 15990,
+      "stock": 6
+    }
+  },
+  {
+    "model": "productos.producto",
+    "pk": 39,
+    "fields": {
+      "nombre": "Tijera de podar bypass 8 pulgadas",
+      "categoria": 7,
+      "precio": 8990,
+      "stock": 12
+    }
+  },
+  {
+    "model": "productos.producto",
+    "pk": 40,
+    "fields": {
+      "nombre": "Carretilla construcción 90 litros",
+      "categoria": 7,
+      "precio": 69990,
+      "stock": 2
+    }
+  }
+]

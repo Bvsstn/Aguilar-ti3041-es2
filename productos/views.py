@@ -1,8 +1,6 @@
-from django.http import HttpResponse, JsonResponse
 from django.shortcuts import render
 from .models import Producto
 
-# Create your views here.
 def index(request):
-    productos = Producto.objects.all().values()
-    return JsonResponse(list(productos), safe=False)
+    productos = Producto.objects.select_related('categoria').order_by('nombre')
+    return render(request, 'productos/index.html', {'productos': productos})
